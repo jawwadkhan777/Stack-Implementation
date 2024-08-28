@@ -47,7 +47,7 @@ public class DynamicStack<T> extends Stack<T>{
             capacity = capacity / 2; // If the number of elements is less than or equal to a quarter of the capacity, reduce the capacity by half
 
             T[] newStack = (T[]) Array.newInstance(c, capacity); // Create a new array with the reduced capacity
-            System.arraycopy(stack, 0, newStack, 0, length); // Copy the elements from the old stack to the new stack
+            System.arraycopy(stack, 0, newStack, 0, length+1); // Copy the elements from the old stack to the new stack
             stack = newStack; // Set the new stack as the current stack
         }
     }

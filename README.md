@@ -8,6 +8,15 @@ As part of my journey in learning Data Structures and Algorithms (DSA) using Jav
 
 The concepts were learned through YouTube tutorials and applied using IntelliJ IDEA.
 
+### Key Features
+- **Generics**: Ensures type safety while working with different data types.
+- **Exception Handling**: Implements exception handling for scenarios like Stack Overflow (when trying to push to a full stack) and Stack Empty (when trying to pop from an empty stack).
+- **Dynamic Resizing**: The dynamic stack expands and shrinks as needed, optimizing memory usage.
+
+## Implemented Classes 📂
+1. **Stack**: Implements a basic fixed-size stack.
+2. **DynamicStack**: Extends the Stack class to create a dynamically resizing stack.
+
 ### Fixed Array Stack
 - **Description:** A stack implementation with a fixed size. Once the stack reaches its capacity, no more elements can be pushed onto the stack.
 - **Exception Handling:** Proper handling for Stack Overflow and Stack Empty exceptions.
